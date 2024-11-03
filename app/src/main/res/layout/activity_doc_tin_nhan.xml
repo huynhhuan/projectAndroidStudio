@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DocTinNhan">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ten: Huynh Ba Huan"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MSV: 22115053122318"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/lvDocTinNhan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
